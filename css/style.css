@@ -204,6 +204,13 @@ ol.listDecimalRow.badge>li:before {background: #2a6d97;}
 
 footer, footer a {color: white !important;}
 
+footer .bg_darkestGrey {
+  background: #66a8cb;
+}
+footer, footer a {
+  color: black !important;
+}
+
 /* Uikit Style
 ---------------------------------------------------- */
 .uk-pagination a {margin-bottom: 5px;}
