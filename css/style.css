@@ -233,6 +233,44 @@ footer, footer a {
 ---------------------------------------------------- */
 
 
+/* 2021-3-10 */
+#logoMenuBar h4 a {
+  font-size: 1.4rem;
+}
+#header .menuBar {
+  background-color: rgba(63, 123, 161, .8);
+  background: linear-gradient(to right, rgba(63, 123, 161, 0) 0%, rgba(255, 255, 255, .5) 50%, rgba(63, 123, 161, 0) 100%);
+}
+#header .menuBar a {
+  font-size: 1.6rem;
+  color: #004672 !important;
+}
+#header .menuBar a:hover {
+  background-color: #FFFFFF !important;
+}
+.searchBar {
+  padding-left: 45px !important;
+}
+.searchBar::before {
+  content: "資源查詢";
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 30px;
+  padding: 5px;
+  align-items: center;
+  background: #2a6d97;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+/* End 2021-3-10 */
+
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
 
 @media (min-width:480px) {
