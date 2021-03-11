@@ -233,7 +233,7 @@ footer, footer a {
 ---------------------------------------------------- */
 
 
-/* 2021-3-10 */
+/* 2021-3-11 */
 #logoMenuBar h4 a {
   font-size: 1.4rem;
 }
@@ -245,13 +245,13 @@ footer, footer a {
   font-size: 1.6rem;
   color: #004672 !important;
 }
-#header .menuBar a:hover {
+#header .menuBar a:hover, #header .menuBar a.active {
   background-color: #FFFFFF !important;
 }
-.searchBar {
+.index .searchBar {
   padding-left: 45px !important;
 }
-.searchBar::before {
+.index .searchBar::before {
   content: "資源查詢";
   font-weight: 700;
   font-size: 1.2rem;
@@ -268,7 +268,7 @@ footer, footer a {
   color: white;
   border-radius: 5px 0 0 5px;
 }
-/* End 2021-3-10 */
+/* End 2021-3-11 */
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
